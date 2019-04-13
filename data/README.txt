@@ -1,0 +1,1 @@
+data/<area-name> is the directory where the downloaded .txt files are stored

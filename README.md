@@ -12,7 +12,7 @@ __Basic usage example__:
 * -a <area-name>
 * -i <start-year>
 * -f <stop-year>
-<br/><br/>
+
 The **area-name** is the name of the meteorological station. You can see the list of available area names by typing: 
 <code>meteo_load.py -d</code>.<br/><br/>
 The arguments **start-year** and **stop-year** define the range of the years in which we want to parse the data.
