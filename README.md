@@ -9,9 +9,9 @@ __Brief description__:
 __Basic usage example__:
 <br/><code>$ python3 meteo_load.py -a nemea -i 2008 -f 2009</code>
 <br/><br/>Arguments explanation:<br/>
-* -a <area-name>
-* -i <start-year>
-* -f <stop-year>
+* -a area-name
+* -i start-year
+* -f stop-year
 
 The **area-name** is the name of the meteorological station. You can see the list of available area names by typing: 
 <code>meteo_load.py -d</code>.<br/><br/>
