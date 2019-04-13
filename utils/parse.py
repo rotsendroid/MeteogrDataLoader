@@ -66,7 +66,7 @@ class ParseMeteo:
         match = re.search(values_record_pattern, l)
         if match:
             ln = self.__format_record(match)
-            with open('meteogr_Nemea_{}_{}.csv'.format(self.years_range[0],
+            with open('csv/meteogr_{}_{}_{}.csv'.format(self.area,self.years_range[0],
                                                        self.years_range[len(self.years_range)-1]), 'a') as fl:
                 fl.write(ln)
 
