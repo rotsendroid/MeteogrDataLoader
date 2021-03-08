@@ -6,6 +6,7 @@ import datetime
 from utils.scrap import Scraping
 from utils.parse import ParseMeteo
 
+#
 
 def define_args_parsing():
     """
